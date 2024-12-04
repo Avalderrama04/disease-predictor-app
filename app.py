@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-model = pickle.load(open('/Users/arthe/disease/disease-predictor-app/lung_cancer_model.pkl', 'rb'))
+model = pickle.load(open('disease-predictor-app/lung_cancer_model.pkl', 'rb'))
 
 def user_input_features():
     st.sidebar.header('User Input Parameters')
